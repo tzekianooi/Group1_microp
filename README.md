@@ -21,8 +21,8 @@ How to setup Blinky on Nucleo-F466RE board.
 10.	After confirming our LED pin configuration, in this case our Nucleo-F466RE board is GPIOA PIN 5, we go back to main.c file and edit it.
 11.	Go to while(1) function and add this line:
 
-HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_5);
-HAL_Delay (1000);
+    HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_5);
+    HAL_Delay (1000);
 
 12.	After adding those two lines, go to the Project > Build Project to compile the code. 
 13.	Go to Run > Debug As > STM32 MCU C/C++ Application.
@@ -30,4 +30,3 @@ HAL_Delay (1000);
 15.	Confirmation windows will pop-out be asked to change perspective. Click switch to open a new windows perspective, where a new toolbar at the top can be seen.
 16.	At the toolbar, you can see a play button. Click the play button to start running your Blinky application on your Nucleo board.
 17.	You can see your GREEN LED labelled LD2 turn on and off. To change the timing of the on and off the the LD2, you can edit the HAL_DELAY(TIME) according to your preference.
-
