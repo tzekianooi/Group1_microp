@@ -9,3 +9,7 @@ Groups Member
 3. Ooi Tze Kian (MKE191085 )
 
 Youtube Video : https://www.youtube.com/watch?v=5v2uf3Up0Nk
+
+Path to the blinky code:
+1) Extract test_blinky.rar
+2) test_blinky/Core/Src/main.c <-- path to the blinky code
